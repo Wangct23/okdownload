@@ -1,7 +1,17 @@
 subprojects {
     buildscript {
         repositories {
-            mavenCentral()
+            mavenLocal()
+            maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+            maven { url "https://jitpack.io" }
+            maven { url "https://dl.bintray.com/thelasterstar/maven/" }
+            mavenCentral() // jcenter() works as well because it pulls from Maven Central
+            maven {
+                url 'https://maven.google.com/'
+                name 'Google'
+            }
+            jcenter()
+            google()
         }
     }
     repositories {
@@ -37,6 +47,15 @@ apply from: rootProject.file('gradle/dependencies.gradle')
 
 buildscript {
     repositories {
+        mavenLocal()
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+        maven { url "https://jitpack.io" }
+        maven { url "https://dl.bintray.com/thelasterstar/maven/" }
+        mavenCentral() // jcenter() works as well because it pulls from Maven Central
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
         jcenter()
         google()
     }
@@ -49,6 +68,15 @@ buildscript {
 
 allprojects {
     repositories {
+        mavenLocal()
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+        maven { url "https://jitpack.io" }
+        maven { url "https://dl.bintray.com/thelasterstar/maven/" }
+        mavenCentral() // jcenter() works as well because it pulls from Maven Central
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
         jcenter()
         google()
     }

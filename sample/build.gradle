@@ -75,6 +75,9 @@ dependencies {
     implementation project(':okdownload')
     implementation project(':sqlite')
     implementation project(':okhttp')
+
+    //RecyclerViewAdapter
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.34'
 }
 
 kotlin {

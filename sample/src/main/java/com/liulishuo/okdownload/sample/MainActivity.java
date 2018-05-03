@@ -45,6 +45,8 @@ public class MainActivity extends BaseListActivity {
                 ContentUriActivity.class);
         holder.addItem(R.string.title_notification, R.string.notification_desc,
                 NotificationActivity.class);
+        holder.addItem(R.string.unified_listener_title, R.string.unified_listener_desc,
+                UniManagerActivity.class);
 //        holder.addItem(R.string.comprehensive_case_title, R.string.comprehensive_case_desc,
 //                ComprehensiveActivity.class);
     }

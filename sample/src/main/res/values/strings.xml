@@ -55,6 +55,8 @@
     <string name="comprehensive_case_desc">On this demo you can see a comprehensive demo with several tabs switch among pages.</string>
     <string name="bunch_download_title">Bunch Download</string>
     <string name="bunch_download_desc">On this demo we will download hundreds of tasks on bunch and display processes of them.</string>
+    <string name="unified_listener_title">Test Listener</string>
+    <string name="unified_listener_desc">测试 UnifiedListenerManager 监听.</string>
 
     <!-- listener -->
     <string name="info_ready">Info Ready</string>
